@@ -15,21 +15,22 @@ class App extends Component {
             <Row>
               <Col>
               <div className="topSection">
-                    <div className="topSectionTxt1">תן תנשמה בכותרת</div>
-                    <div className="topSectionTxt2 mt-3">נמאס לכם מבלהבלהלבלה?! אז בואו גם ובלבלבלבלב! אפשר להוסיף פה עוד טקסט למטה</div>
+                    <div className="topSectionTxt1">בדיקת כפל ביטוחים, בחינם!</div>
+                    <div className="topSectionTxt2 mt-3">נמאס לכם לא לדעת על מה אתם משלמים?! בואו תעשו סדר, ותחסכו מאות שקלים בחודש</div>
                   </div>
               </Col>
             </Row>
             <Row>
               <Col md="7" xs="12">
                 <div className="formWithInfo column md-7 xs-12">
-                
                   <div className="middleSection">
-                    <div className="middleSectionTxt1">תן תנשמה גם בכותרת הזאת</div>
+                    <div className="middleSectionTxt1">מה זה אומר בכלל כפל ביטוחים?</div>
                     <div className="middleSectionTxt2 mt-3">מלאו את פרטיכם ונדאג לכם למחיר הזול והמשתלם ביותר</div>
-                    <div className="middleSectionTxt3">כמובן שאפשר לשפר את העיצוב עוד הרבה שיראה פחות ילדותי אבל בינתיים לפחות נעלה עם משהו</div>
-
+                    <div className="middleSectionTxt3">כשזה מגיע ל ביטוח אתה כמו כולם פחות מבין, </div>
+                    <div className="middleSectionTxt3">  אבל דבר אחד אתה יודע מכרו לך הרבה ביטוחים שכנראה חופפים</div>
+                    <div className="middleSectionTxt3"> ואז במקום כפל מבצעים יש לך כפל תשלומים ואת זה אתה יודע שאתה לא רוצה!</div>
                   </div>
+                    
                   <div className="bottomSection">
                     <form>
                       <label>אימייל</label>
@@ -40,9 +41,7 @@ class App extends Component {
                       <Input className="form-control-sm" type="tel" />
                     </form>
                     <div className="infoAndButtonWrapper">
-                      <div className="infoAndButtonWrapperTxt1 mt-3">תנאים</div>
-                      <div className="infoAndButtonWrapperTxt2 mt-2">An Orange!</div>
-                      <div className="infoAndButtonWrapperTxt3"> לכתוב פה בקטן את האותיות הקטנות למרות שנראה לי עדיף להסתיר את זה בכללי</div>
+                      <div className="infoAndButtonWrapperTxt3"> בעת השליחה את/ה מאשר שאנו נשלח את הפרטים לסוכנויות מקצועניות שאנו עובדים איתם</div>
                       <Button className="btn mt-3">!שלח</Button>
                     </div>
                   </div>
@@ -51,33 +50,37 @@ class App extends Component {
               <Col md="5" xs="12">
                 <div className="descriptionWrapper">
                         <img className="descriptionWrapperImg" alt="" src="https://lh3.googleusercontent.com/BFz-F0dAqvcnS2kgQdv7qk_eTfXFhVATJqwpq3l3gO9ml-NzZjbfm-TtpOo4jvYaqVTjsxhWSi0cYXJcPkBGVA=w1024"/>
-                        <div className="descriptionWrapperTxt1">SociApp Unlimited Account</div>
+                        <div className="descriptionWrapperTxt1">למה לי להשאיר את הפרטים דווקא כאן?</div>
                         <div className="descWithV">
-                          <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
-                          <div className="descWithVTxt">אפשר להחליף את כל הV הזה עם טקטסט רגיל אבל נראה איך זה הולך קודם</div>
+                            <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
+                            <div className="descWithVTxt">כי את העבודה הקשה אנחנו נעשה בשבילכם, בחינם!</div>
+                        </div>
+                        <div className="descWithV">
+                            <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
+                            <div className="descWithVTxt">כי אנחנו נאמנים ללקוחות ולא מתפשרים על מה שמגיע להם</div>
                         </div>
                         <div className="descWithV">
                           <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
-                          <div className="descWithVTxt">לזיין תמוח2</div>
+                          <div className="descWithVTxt">כי אנחנו עובדים עם כל הסוכנויות הגדולות במדינה</div>
                         </div>
                         <div className="descWithV">
                           <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
-                          <div className="descWithVTxt">לזיין תמוח3</div>
+                          <div className="descWithVTxt">כי אתה לא הלקוח הראשון שלנו, שיחסוך מאות שקלים בחודש</div>
                         </div>
                         <div className="descWithV">
                           <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
-                          <div className="descWithVTxt">לזיין תמוח4</div>
+                          <div className="descWithVTxt">כי אנחנו יודעים לאתר לך את המחירים הנמוכים ביותר</div>
                         </div>
                         <div className="descWithV">
                           <img src={require('./imgs/V.png')} className="descWithVImg" alt=""/>
-                          <div className="descWithVTxt">לזיין תמוח5</div>
+                          <div className="descWithVTxt">כי אנחנו עובדים רק עם מקצוענים, שידאגו לך</div>
                         </div>
                 </div>
               </Col>
             </Row>
 
             <footer className="footer"> 
-                  © 2019
+                  © 2019 - בזתר, כאן בשבילך!
             </footer>
 
 
